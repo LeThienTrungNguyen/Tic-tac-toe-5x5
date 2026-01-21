@@ -2,7 +2,7 @@
 
 public class Board : MonoBehaviour
 {
-    public const int Size = 20;
+    public const int Size = 50;
     private int[,] grid = new int[Size, Size];
 
     public int[,] Grid => grid;
